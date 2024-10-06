@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                Enter 1st number:
+            </td>
+            <td><input type="text" name="fnumber" id="fnumber"></td>
+        </tr>
+        <tr>
+            <td>Enter 2nd number:</td>
+            <td><input type="text" name="snumber" id="snumber"></td>
+        </tr>
+        <tr>
+            <td><button type=button onclick=add()>Add</button></td>
+            <form>
+            <td><input type="reset" value="clear"></td>
+            </form>
+        </tr>
+        <tr>
+            <td><button type=button onclick=sub()>Subtract</button></td>
+        </tr>
+        <tr>
+            <td><button type=button onclick=mul()>Multiply</button></td>
+        </tr>
+        <tr>
+            <td><button type=button onclick=div()>Divide</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><h3 id="result"></h3></td>
+        </tr>
+    </table>
+    <script>
+        function add()
+        {
+            var fn=parseInt(document.getElementById("fnumber").value);
+            var sn=parseInt(document.getElementById("snumber").value);
+            var result=fn+sn;
+            console.log(result);
+            document.getElementById("result").innerHTML="Addition of 2 numbers is "+result;
+        }
+
+        function sub()
+        {
+            var fn=parseInt(document.getElementById("fnumber").value);
+            var sn=parseInt(document.getElementById("snumber").value);
+            var result=fn-sn;
+            console.log(result);
+            document.getElementById("result").innerHTML="Subtraction of 2 numbers is "+result;
+        }
+
+        function mul()
+        {
+            var fn=parseInt(document.getElementById("fnumber").value);
+            var sn=parseInt(document.getElementById("snumber").value);
+            var result=fn*sn;
+            console.log(result);
+            document.getElementById("result").innerHTML="Multiplication of 2 numbers is "+result;
+        }
+
+        function div()
+        {
+            var fn=parseInt(document.getElementById("fnumber").value);
+            var sn=parseInt(document.getElementById("snumber").value);
+            var result=fn/sn;
+            console.log(result);
+            document.getElementById("result").innerHTML="Division of 2 numbers is "+result;
+        }
+    </script>
+</body>
+</html>

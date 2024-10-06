@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>table</title>
+</head>
+<body>
+<table>
+<tr>
+<th>Company</th>
+<th>Country</th>
+<th>Contact</th>
+</tr>
+<tr>
+<td>Google</td>
+<td>Microsoft</td>
+<td>OpenAI</td>
+</tr>
+<tr>
+<td>Andrew</td>
+<td>Bill Gates</td>
+<td>Sam Altman</td>
+</tr>
+<tr>
+<td>123</td>
+<td>321</td>
+<td>456</td>
+</tr>
+</table>
+</body>
+</html>

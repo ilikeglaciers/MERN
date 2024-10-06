@@ -1,0 +1,12 @@
+p{
+    color:red;
+    background-color:yellow;
+    border:2px dotted green;
+    margin:50px;
+    padding:20px;
+    text-shadow:0 2px gray;
+    text-align:justify;
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    :background-position: ;
+}
